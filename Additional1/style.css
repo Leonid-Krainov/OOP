@@ -1,0 +1,19 @@
+div#player {
+  width: 450px;
+  height: 380px;
+  background-image: url("22618415-illustration-of-a-soldier-in-camouflage-uniform-holding-a-rifle-and-taking-aim.jpg");
+  
+  transition: all 0.3s ease-out 0s;
+  
+  position: absolute;
+  top: 0px;
+  left: 0px;
+
+}
+div.bullet {
+  width: 300px;
+  height: 150px;
+  background-image: url("rws_0_dk_bp-g_0_stadium1.png");
+  background-position: center;
+  position: absolute;
+}

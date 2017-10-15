@@ -1,0 +1,20 @@
+#market {
+    border: 1px solid black;
+    border-collapse: collapse;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+td, th {
+    border: 1px solid black;
+    width: 100px;
+}
+div.buttons {
+    display: flex;
+    justify-content: space-around;
+}
+.hidden {
+    display: none;
+}
+.bill {
+    text-align: center;
+}   

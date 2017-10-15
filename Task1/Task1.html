@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <table id="market">
+        <tr>
+            <th>Item</th>
+            <th>Price, UAH</th>
+            <th>Weight, kg</th>
+            <th>Amount</th>
+            <th>Sum, UAH</th>
+        </tr>
+        <tr class="item">
+            <td>
+                <select name="Items" autocomplete="off">
+                    <option selected="selected" value="Beer">Beer</option>
+                    <option value="Cake">Cake</option>
+                    <option value="Carrot">Carrot</option>
+                    <option value="Chocolate">Chocolate</option>
+                    <option value="Coffee">Coffe</option>
+                    <option value="Crisps">Crisps</option>
+                    <option value="Lemonade">Lemonade</option>
+                    <option value="Onion">Onion</option>
+                    <option value="Pasta">Pasta</option>
+                    <option value="Potato">Potato</option>
+                    <option value="Rice">Rice</option>
+                    <option value="Salt">Salt</option>
+                    <option value="Sugar">Sugar</option>
+                    <option value="Tea">Tea</option>
+                    <option value="Tomato">Tomato</option>
+                </select>
+            </td>
+            <td class="price">15</td>
+            <td class="weight">0,5</td>
+            <td>
+                <input class="amount" type="number" min="1" value="1" autocomplete="off">
+            </td>
+            <td class="sum">15</td>
+            <td><input type="button" name="Bill" value="Bill" id="bill" onclick="showBill(this)"></td>
+            <td class="hidden"></td>
+        </tr>
+    </table>
+    <div class="buttons">
+        <input type="button" name="add" value="Add">
+        <input type="button" name="bill all" value="Bill all" id="billall" onclick="billAll()">
+    </div>
+    <div class="bill"></div>
+</body>
+<script src="skrypt.js"></script>
+</html>

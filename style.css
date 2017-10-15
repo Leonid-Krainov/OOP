@@ -1,0 +1,25 @@
+#tasks, #additional {
+    display: flex;
+    justify-content: space-around;
+}
+a {
+    width: 150px;
+    height: 50px;
+    color: #000;
+    background-color: #12F2EC;
+    border: 1px solid grey;
+    border-radius: 10px;
+    text-decoration: none;
+    text-align: center;
+    padding-top: 30px;
+    margin-top: 50px;
+}
+a:hover {
+    background-color: #4D5FDF
+}
+#additional a {
+    padding-top: 15px;
+}
+#additional a:hover {
+    background-color: #E256BF;
+}
